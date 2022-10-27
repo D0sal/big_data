@@ -28,6 +28,5 @@ spec:
           ports:
             - containerPort: 8080 # Define port mapping
 ############################################
-Now let's apply that configuration to our cluster. To do so, simply run:
-
-kubectl apply -f dashboard-deployme
+# Now let's apply that configuration to our cluster. To do so, simply run:
+# kubectl apply -f dashboard-deployment
