@@ -1,6 +1,6 @@
 FROM continuumio/miniconda3
 
-WORKDIR /home/app
+WORKDIR /
 
 RUN apt-get update
 RUN apt-get install nano unzip
