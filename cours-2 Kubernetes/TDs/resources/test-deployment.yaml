@@ -22,7 +22,8 @@ spec:
     spec:
       containers:
         - name: mlflow-demo
-          image:  # Path of the image registry
+          image: mlflow  # Path of the image registry
+          imagePullPolicy: Never
           env: # Defines Environment variables
             - name: PORT
               value: "8080"
